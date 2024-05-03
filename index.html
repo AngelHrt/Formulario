@@ -6,6 +6,93 @@
     <title>Formulario</title>
 </head>
 <body>
-    
+    <form>
+        <table border="0" width="100%">
+
+            <tr>
+                <th colspan="4" >Datos Personales</th>
+            </tr>
+
+            <tr>
+                <td width="20%"></td>
+                <td width="30%">
+                    <label for="name">Nombre y apellidos</label></td>
+                <td width="30%"><input type="text" name="name" id="name"></td>
+                <td width="20%"></td>
+            </tr>
+
+            <tr>
+                <td width="20%"></td>
+                <td colspan="2">
+                    <input type="radio" id="hombre" name="genero">
+                    <label for="hombre">Hombre</label>
+                    <input type="radio" id="mujer" name="genero">
+                    <label for="mujer">Mujer</label>
+                </td>
+                <td width="20%"></td>
+            </tr>
+
+            <tr>
+                <td width="20%"></td>
+                <td width="30%"><label for="idiomas">Idioma</label></td>
+                <td width="30%">
+                    <select name="idiomas" id="idiomas">
+                        <option value="spanish">Español</option>
+                        <option value="spanish">Ingles</option>
+                    </select>
+                </td>
+                <td width="20%"></td>
+            </tr>
+
+            <tr>
+                <td width="20%"></td>
+                <td width="30%">
+                    <label for="direccion">Dirección</label></td>
+                <td width="30%"><input type="text" name="direccion" id="direccion"></td>
+                <td width="20%"></td>
+            </tr>
+
+            <tr>
+                <td width="20%"></td>
+                <td width="30%">
+                    <label for="telefono">Teléfono</label></td>
+                <td width="30%"><input type="tel" name="telefono" id="telefono"></td>
+                <td width="20%"></td>
+            </tr>
+
+            <tr>
+                <td width="20%"></td>
+                <td width="30%">
+                    <label for="email">E-mail</label></td>
+                <td width="30%"><input type="email" name="email" id="email"></td>
+                <td width="20%"></td>
+            </tr>
+            
+            <tr>
+                <td width="20%"></td>
+                <td width="30%">
+                    <label for="comentario">Comentario</label></td>
+                <td width="30%"><textarea name="comentario" id="comentario"></textarea></td>
+                <td width="20%"></td>
+            </tr>
+
+            <tr>
+                <td width="20%"></td>
+                <td width="30%">
+                    <label for="fecha">Fecha</label></td>
+                <td width="30%"><input type="date" name="fecha" id="fecha"></textarea></td>
+                <td width="20%"></td>
+            </tr>
+            <tr>
+                <td width="20%"></td>
+                <td colspan="2">
+                    <input type="submit" value="Enviar">
+                <td width="20%"></td>
+            </tr>
+
+
+
+        </table>
+    </form>
 </body>
 </html>
